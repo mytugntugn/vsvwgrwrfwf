@@ -1,0 +1,5 @@
+local original = workspace.chomiki.polybimik.CFrame
+game.ReplicatedStorage.enablechomi:FireServer(workspace.chomiki.polybimik.Name)
+workspace.chomiki.polybimik.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+task.wait(0.001)
+workspace.chomiki.polybimik.CFrame = original
